@@ -1,0 +1,11 @@
+#JSGF V1.0;
+
+/**
+ * JSGF Grammar 
+ */
+
+grammar grammar;
+
+public <mine> = (phone | wallet | key | pronunciation);
+public <color> = (amber | black | blue | gray | green | orange | pink | red | white | yellow);
+public <number> = ( zero | one | two | three | four | five | six | seven | eight | nine | ten);
